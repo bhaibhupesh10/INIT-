@@ -1,0 +1,77 @@
+.skills-container {
+  width: 900px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.skills-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-skill-button {
+  display: block;
+  margin: 10px auto;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.skills-scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px 0;
+}
+
+.skills-section {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.skill-card {
+  display: inline-block;
+  width: 100px; /* Adjust size as needed */
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.skill-title {
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+    
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal button {
+  display: block;
+  margin-top: 10px;
+}
